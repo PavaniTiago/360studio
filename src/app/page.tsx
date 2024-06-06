@@ -7,7 +7,7 @@ export default function Page(){
   return(
     <main className="flex flex-col items-center w-full min-h-screen">
       <WhattsAppButton />
-      <video className="w-full h-screen object-fill md:object-contain brightness-50 relative" autoPlay loop playsInline webkit-playsinline>
+      <video className="w-full h-screen object-fill md:object-contain brightness-50 relative" autoPlay loop muted playsInline webkit-playsinline>
           <source src="/video.mp4" type="video/mp4"/>
       </video>
       <article className="flex flex-col items-start justify-center h-full w-full absolute">
