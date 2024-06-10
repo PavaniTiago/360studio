@@ -1,6 +1,4 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-    basePath: '/360studio',
-};
+const nextConfig = {};
 
 export default nextConfig;
